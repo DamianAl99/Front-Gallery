@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    background: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.main{
+    background: redd;
+    width: 95%;
+    max-width: 750px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+.main .header{
+    background: redd;
+    width: 100%;
+    padding: 20px 0 60px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+/*
+
+*/
+.main .header .logo{
+    background: orangee;
+    width: 100%;
+    max-width: 200px;
+    padding-bottom: 30px;
+}
+.main .header .logo h1{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 2em;
+}
+.main .header .about{
+    background: greenn;
+    width: 100%;
+    max-width: 250px;
+}
+.main .header .about h4{
+    text-align: left;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.main .header .about p{
+    text-align: left;
+    font-weight: normal;
+    font-size: 1.2em;
+    color: rgb(100, 99, 99);
+}
+
+
+.main .photos{
+    background: redd;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+.main .photos .img-content{
+    width: 100%;
+    max-width: 500px;
+    height: 240px;
+    position: relative;
+    background: orangee;
+}
+.main .photos .sc-small{
+    background: blackk;
+    margin-top: 50px;
+}
+.main .photos .img-content img{
+    width: 90%;
+    max-width: 280px;
+    height: 200px;
+    border-radius: 2px;
+    box-shadow: 0 0 4px rgba(70, 70, 70, 0.4);
+    background: greenn;
+}
+.main .photos .img-content .area{
+    position: relative;
+    width: 100px;
+    font-size: 1.2em;
+    left: calc(90% + 10px);
+    transform-origin: 0%;
+    transform: rotate(90deg);
+    top: -210px;
+    color: rgb(100, 99, 99);
+    background: greenn;
+}
+.main .photos .img-content .name{
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: -10px;
+    background: greenn;
+}
+
+
+@media (min-width: 400px){
+    .main .header .about h4{
+        font-size: 1.24em;
+    }
+    .main .header .about p{
+        font-size: 1.24em;
+    }
+    .main .photos .img-content{
+        height: 280px;
+        background: redd;
+    }
+    .main .photos .img-content img{
+        height: 250px;
+    }
+    /*-250px porque el height de la img tiene 250px mas 10 de padding-bottom*/
+    .main .photos .img-content .area{
+        top: -260px;
+    }
+}
+@media (min-width: 550px){
+    .main .header .about h4{
+        font-size: 1.28em;
+    }
+    .main .header .about p{
+        font-size: 1.28em;
+    }
+    .main .photos .img-content{
+        height: 320px;
+        background: redd;
+    }
+    .main .photos .img-content img{
+        height: 300px;
+    }
+    .main .photos .img-content .area{
+        top: -310px;
+    }
+}
+@media (min-width: 750px){
+    .main .header{
+        background: redd;
+        width: 100%;
+        padding: 40px 0 80px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .main .photos{
+        background: redd;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+    .main .photos .sc-small{
+        background: blackk;
+        margin-top: 0px;
+    }
+    .main .photos .sc-big{
+        background: blackk;
+        margin-top: 80px;
+    }
+}
+
+/*.main .photos{
+    background: redd;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.main .photos .img-content{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background: orangee;
+}
+.main .photos .img-content img{
+    width: 70%;
+    height: 300px;
+    background: greend;
+}
+.main .photos .img-content .area{
+    position: absolute;
+    font-size: 1.2em;
+    left: 58%;
+    top: 40px;
+    transform: rotate(-90deg);
+    background: greend;
+}
+.main .photos .img-content .name{
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: 10px;
+}*/
