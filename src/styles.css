@@ -92,7 +92,7 @@ body{
     transform-origin: 0%;
     transform: rotate(90deg);
     top: -210px;
-    color: rgb(100, 99, 99);
+    color: rgb(134, 134, 134);
     background: greenn;
 }
 .main .photos .img-content .name{
@@ -100,6 +100,23 @@ body{
     font-weight: bold;
     margin-top: -10px;
     background: greenn;
+}
+
+
+footer{
+    margin-top: 50px;
+    padding: 10px 0;
+    background: redd;
+}
+footer p{
+    text-align: center;
+    font-size: 1.2em;
+    color: rgb(134, 134, 134);
+}
+footer p span a{
+    color: orange;
+    text-decoration: none;
+    font-size: 1.25em;
 }
 
 
